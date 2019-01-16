@@ -28,7 +28,7 @@
 ## Plan
 * Phases (milestones), timeline, short description of what we'll do in each phase.
 
-## Architecture
+## Architecture and Ops
 * Data
   * What data do we expect? Raw data in the customer data sources (e.g. on-prem files, SQL, on-prem Hadoop etc.)
 
