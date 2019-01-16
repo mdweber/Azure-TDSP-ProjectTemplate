@@ -40,7 +40,6 @@
   * How will the customer use the model results to make decisions
   * Data movement pipeline in production
   * Make a 1 slide diagram showing the end to end data flow and decision architecture
-    * If there is a substantial change in the customer's business workflow, make a before/after diagram showing the data flow.
 
 ## Communication
 * How will we keep in touch? Weekly meetings?
