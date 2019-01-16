@@ -43,4 +43,3 @@
 
 ## Communication
 * How will we keep in touch? Weekly meetings?
-* Who are the contact persons on both sides?
