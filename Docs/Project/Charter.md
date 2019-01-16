@@ -6,20 +6,17 @@
 * What business problems are we trying to address?
 
 ## Scope
-* What data science solutions are we trying to build?
-* What will we do?
+* What data science solutions are we trying to build? OR What is the research question(s)?
+* What will we do or how will we answer?
 * How is it going to be consumed by the customer?
+* What is out of scope.
+* Limitations and constraints.
 
 ## Personnel
 * Who are on this project:
-	* Microsoft:
-		* Project lead
-		* PM
-		* Data scientist(s)
-		* Account manager
-	* Client:
-		* Data administrator
-		* Business contact
+	* ELT Sponsor
+	* Business Lead
+	* BIA Lead
 	
 ## Metrics
 * What are the qualitative objectives? (e.g. reduce user churn)
@@ -34,16 +31,12 @@
 ## Architecture
 * Data
   * What data do we expect? Raw data in the customer data sources (e.g. on-prem files, SQL, on-prem Hadoop etc.)
-* Data movement from on-prem to Azure using ADF or other data movement tools (Azcopy, EventHub etc.) to move either
-  * all the data, 
-  * after some pre-aggregation on-prem,
-  * Sampled data enough for modeling 
 
-* What tools and data storage/analytics resources will be used in the solution e.g.,
-  * ASA for stream aggregation
-  * HDI/Hive/R/Python for feature construction, aggregation and sampling
-  * AzureML for modeling and web service operationalization
-* How will the score or operationalized web service(s) (RRS and/or BES) be consumed in the business workflow of the customer? If applicable, write down pseudo code for the APIs of the web service calls.
+* Analytics and DveOps
+  * Hardware
+  * Software
+
+* How do we operationalize
   * How will the customer use the model results to make decisions
   * Data movement pipeline in production
   * Make a 1 slide diagram showing the end to end data flow and decision architecture
